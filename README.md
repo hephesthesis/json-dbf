@@ -3,7 +3,7 @@ Generates a dbf File from set of JSON Input.
 
 # example
 in node:
-
+```js
 var dbf = require('../'),
     fs = require('fs');
 
