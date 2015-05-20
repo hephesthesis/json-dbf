@@ -2,18 +2,7 @@
   "name": "json-dbf",
   "version": "0.0.1",
   "description": "Generates a dbf File from set of JSON Input.",
-  "main": "index.js",
-  "dependencies": {
-    "jdataview": "~2.4.4"
-  },
-  "devDependencies": {
-    "tap": "~0.4.8",
-    "browserify": "~3.44.2"
-  },
-  "scripts": {
-    "test": "tap test/*.js",
-    "make": "browserify -s dbf ./ > dbf.js"
-  },
+  "main": "structure.js",  
   "repository": {
     "type": "git",    
     "url": "git://github.com/hephesthesis/json-dbf"
