@@ -1,6 +1,5 @@
 var dbf = require('../Generator/structure'),
     fs = require('fs');
-//console.log(dbf);
 var buf = dbf.structure([
     {AMC_CODE:'ABC',BROKE_CD:'ARN-99762',SBBR_CODE:1234,
         User_Code:'Testing',USR_TXN_NO:1234,Appl_No:'A1234',TRXN_DATE:'01/20/1993'
@@ -11,3 +10,4 @@ var buf = dbf.structure([
 ]);
 
 fs.writeFileSync('test.dbf', dbf.toBuffer(buf.buffer));
+console.log('DBF File Generated');
