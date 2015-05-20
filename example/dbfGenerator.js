@@ -1,4 +1,4 @@
-var dbf = require('../Generator/structure'),
+var dbf = require('../Generator/index'),
     fs = require('fs');
 var buf = dbf.structure([
     {AMC_CODE:'ABC',BROKE_CD:'ARN-99762',SBBR_CODE:1234,
